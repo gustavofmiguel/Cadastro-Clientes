@@ -1,0 +1,89 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(48deg, #aa0021,#011baf);
+}
+.box{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%; 
+}
+fieldset{
+    border: 3px solid rgb(2, 27, 174);
+}
+legend{
+    border: 1px solid rgb(2, 27, 174);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(2, 27, 174);
+    border-radius: 5px;
+}
+.imputBox{
+    position: relative; 
+}
+.imputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.imputUser:focus ~ .labelInput,
+.imputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(47, 74, 228);
+}
+#data_nascimento{
+    background-image: linear-gradient(90deg, #55a4ff,#a16eff);
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#submit{
+    width:100%;
+    background-image: linear-gradient(48deg, #015CC5,#5a14dc);
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#submit:hover{
+    background-image: linear-gradient(48deg, #0150AC,#5013C3);
+}
+#nome{
+    width: 100%;
+}
+#email{
+    width: 100%;
+}
+#telefone{
+    width: 100%;
+}
+#cidade{
+    width: 100%;
+}
+#estado{
+    width: 100%;
+}
+#endereco{
+    width: 100%;
+}
