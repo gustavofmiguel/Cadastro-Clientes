@@ -1,6 +1,6 @@
 ##  Cadastro de Clientes
  
- Formulário para cadatro de clientes feito para aperfeiçoar minhas habilidades em Web
+ Formulário para cadastro de clientes feito para aperfeiçoar minhas habilidades em Web
  
 ## ⚙ Linguagens Utilizadas:
 
